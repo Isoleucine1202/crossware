@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>StuyBO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="genetic-cross.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="mainhead">Hi</h1>
+    <h2>Monohybrid Cross</h2>
+    <form>
+        <label for="first">First organism genotype:</label><br>
+        <input type="text" id="first" name="first" value=""><br>
+        <label for="second">Second organism genotype:</label><br>
+        <input type="text" id="second" name="second" value=""><br><br>
+        <button type="button" onclick="monocross(first.value, second.value)">Try it</button>
+    </form>
+    <p id="jsText"></p>
+    <button type="button" onclick="reset()">Reset</button>
+
+</body>
+
+</html>
